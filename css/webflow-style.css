@@ -2329,6 +2329,9 @@ textarea.w-input, textarea.w-select {
 
 .resume-node-inner-h2 {
   margin-bottom: 0;
+  display:inline-block;
+  background-color: #65AF9C;
+  color: #F9D508;
 }
 
 .resume-node-inner-date {
