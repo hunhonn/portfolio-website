@@ -2878,7 +2878,7 @@ h1 {
   }
 
   .cat-image {
-    display: none;
+    display: none !important;
   }
 
   .tower-image {
