@@ -2894,12 +2894,20 @@ h1 {
     left: -3px;
   }
 
+  .aboutme-h2.projects-me {
+    left: -3px;
+  }
+
   .cat-image {
     display: none;
   }
 
   .tower-image {
     flex: 0 auto;
+    display: none;
+  }
+
+  .container-image {
     display: none;
   }
 
