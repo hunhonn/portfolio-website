@@ -2377,7 +2377,7 @@ h1 {
   font-weight: 700;
   line-height: .75em;
   display: flex;
-  position: static;
+  position: relative;
 }
 
 .aboutme-h2.resume {
@@ -2389,6 +2389,10 @@ h1 {
 .aboutme-h2.contact-me {
   position: relative;
   left: -56px;
+}
+
+.aboutme-h2.projects-me {
+  left: -54px;
 }
 
 .image-10 {
@@ -2408,26 +2412,33 @@ h1 {
   margin-left: -135px;
   padding-left: 0;
   position: relative;
-  top: 5vh;
+  top: 51%;
   left: -14.1vw;
 }
 
 .tower-image {
   margin-left: -102px;
   position: relative;
-  top: 19px;
+  bottom: -38%;
   left: -89px;
 }
 
 .tree-image {
   position: relative;
-  top: 32px;
+  top: 39%;
   left: -80px;
+}
+
+.dog-image {
+  position: relative;
+}
+
+.dog-image.container-image {
+  left: 24px;
 }
 
 .mountain-image {
   position: relative;
-  top: 21px;
   left: 33px;
 }
 
@@ -2729,6 +2740,11 @@ h1 {
   transform: scale(.8);
 }
 
+.container-image {
+  position: relative;
+  left: 9px;
+}
+
 @media screen and (max-width: 991px) {
   .mascot-container {
     max-width: 728px;
@@ -2878,7 +2894,7 @@ h1 {
   }
 
   .cat-image {
-    display: none !important;
+    display: none;
   }
 
   .tower-image {
