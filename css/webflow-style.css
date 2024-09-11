@@ -2392,7 +2392,8 @@ h1 {
 }
 
 .aboutme-h2.projects-me {
-  left: -54px;
+  position: relative;
+  left: -56px;
 }
 
 .image-10 {
